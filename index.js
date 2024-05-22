@@ -4,4 +4,4 @@ let person = [{ firstName: "Nchizi", lastName: "Bimenyimana" }];
 const fullName = person.map((pf) => {
   return [pf.firstName, pf.lastName];
 });
-console.log(fullName);
+fullName.forEach((p) => console.log(p));
